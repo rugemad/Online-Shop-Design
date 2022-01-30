@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    behavior: smooth;
+}
+
+nav {
+    background-color: blue;
+    border-top: white;
+    height: 100px;
+    width: 100%;
+}
+
+.lo a img {
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.menu {
+    float: right;
+    margin-right: 1%;
+}
+
+.menu a {
+    text-align: center;
+    background-color: transparent;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 13px 25px;
+    font-family: Felix Titling;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.menu a:hover {
+    border-color: white;
+    background-color: white;
+    color: blue;
+    transition: 1s;
+}
+
+.des {
+    background-image: linear-gradient(rgba(10, 9, 9, 0.70), rgba(0, 0, 0, 0.70)), url(mac_pro.jpg);
+    background-size: cover;
+    text-align: center;
+    height: 350vh;
+}
+
+.des h1 {
+    padding-top: 10%;
+    font-family: Copperplate Gothic;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: blue
+}
+
+.des h1:hover {
+    letter-spacing: 3px;
+    color: white;
+    transition: 1s;
+}
+
+.des p {
+    padding-top: 55px;
+    font-family: Lucida Bright;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: rgb(196, 194, 194);
+}
+
+.des #list {
+    padding-top: 70px;
+}
+
+#list {
+    background-color: transparent;
+    text-align: center;
+}
+
+#list h3 {
+    padding-top: 10%;
+    font-family: Copperplate Gothic;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: blue
+}
+
+#list h3:hover {
+    letter-spacing: 3px;
+    color: white;
+    transition: 1s;
+}
+
+#list p {
+    padding-top: 55px;
+    font-family: Lucida Bright;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: rgb(196, 194, 194);
+}
+
+footer {
+    background-color: blue;
+    height: 10vh;
+}
+
+.foll {
+    padding: 1% 1%;
+    float: left;
+    background-color: transparent;
+}
+
+.foll a {
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-left: 5px;
+    font-family: Bright;
+    font-size: 17px;
+    color: white;
+}
+
+.foll a:hover {
+    color: yellow;
+    transition: 1s;
+}
+
+.down {
+    float: right;
+    padding: 1% 1%;
+}
+
+.down a {
+    font-family: Franklin Gothic;
+    letter-spacing: 1px;
+    color: gray;
+    text-decoration: none;
+}
+
+.down a:hover {
+    color: white;
+    transition: 1s;
+}
+
+.copy {
+    text-align: center;
+    padding-top: 2%;
+    font-family: Franklin Gothic;
+    letter-spacing: 1px;
+    color: yellow;
+}

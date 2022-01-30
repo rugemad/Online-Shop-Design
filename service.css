@@ -1,0 +1,382 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    behavior: smooth;
+}
+
+nav {
+    background-color: blue;
+    border-top: white;
+    height: 100px;
+    width: 100%;
+}
+
+.lo a img {
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.menu {
+    float: right;
+    margin-right: 1%;
+}
+
+.menu a {
+    text-align: center;
+    background-color: transparent;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 13px 25px;
+    font-family: Felix Titling;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.menu a:hover {
+    border-color: white;
+    background-color: white;
+    color: blue;
+    transition: 1s;
+}
+
+.our {
+    background-image: linear-gradient(rgba(10, 9, 9, 0.70), rgba(0, 0, 0, 0.70)), url(space.png);
+    background-size: cover;
+    text-align: center;
+    height: 90vh;
+}
+
+.our h1 {
+    padding-top: 10%;
+    font-family: Copperplate Gothic;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: blue
+}
+
+.our h1:hover {
+    letter-spacing: 3px;
+    color: white;
+    transition: 1s;
+}
+
+.our p {
+    padding-top: 55px;
+    font-family: Lucida Bright;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: rgb(196, 194, 194);
+}
+
+.our #btn {
+    padding-top: 70px;
+}
+
+#btn a {
+    background-color: transparent;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 13px 25px;
+    font-family: Felix Titling;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: white;
+}
+
+#btn a:hover {
+    border-color: blue;
+    background-color: blue;
+    color: white;
+    transition: 1s;
+}
+
+.pay {
+    background-image: linear-gradient(rgba(10, 9, 9, 0.70), rgba(0, 0, 0, 0.70)), url(chair.png);
+    background-size: cover;
+    text-align: center;
+    height: 90vh;
+}
+
+.pay h1 {
+    padding-top: 10%;
+    font-family: Copperplate Gothic;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: blue
+}
+
+.pay h1:hover {
+    letter-spacing: 3px;
+    color: white;
+    transition: 1s;
+}
+
+.pay p {
+    padding-top: 55px;
+    font-family: Lucida Bright;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: rgb(196, 194, 194);
+}
+
+.pay #butt {
+    padding-top: 70px;
+}
+
+#butt a {
+    background-color: transparent;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 13px 25px;
+    font-family: Felix Titling;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: white;
+}
+
+#butt a:hover {
+    border-color: blue;
+    background-color: blue;
+    color: white;
+    transition: 1s;
+}
+
+.deri {
+    background-image: linear-gradient(rgba(10, 9, 9, 0.70), rgba(0, 0, 0, 0.70)), url(system.png);
+    background-size: cover;
+    text-align: center;
+    height: 155vh;
+}
+
+.deri h1 {
+    padding-top: 10%;
+    font-family: Copperplate Gothic;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: blue
+}
+
+.deri h1:hover {
+    letter-spacing: 3px;
+    color: white;
+    transition: 1s;
+}
+
+.deri p {
+    padding-top: 55px;
+    font-family: Lucida Bright;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: rgb(196, 194, 194);
+}
+
+.deri #btn {
+    padding-top: 70px;
+}
+
+#btn a {
+    background-color: transparent;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 13px 25px;
+    font-family: Felix Titling;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: white;
+}
+
+#btn a:hover {
+    border-color: blue;
+    background-color: blue;
+    color: white;
+    transition: 1s;
+}
+
+.deri #foo {
+    padding: 150px;
+    padding-left: 420px;
+    background-color: transparent;
+}
+
+#foo form {
+    width: 500px;
+}
+
+#foo fieldset {
+    height: 500px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding-top: 70px;
+}
+
+#foo legend {
+    margin-left: -130px;
+    font-family: Franklin Gothic;
+    letter-spacing: 1px;
+    color: blue;
+}
+
+#foo input {
+    background-color: transparent;
+    width: 400px;
+    height: 50px;
+    padding-left: 7px;
+    border-radius: 15px;
+    border: 1px solid white;
+    font-family: monospace;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: blue;
+}
+
+#butto input {
+    width: 170px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-family: Copperplate Gothic;
+}
+
+#butto input:hover {
+    background-color: white;
+    border-color: white;
+    color: blue;
+    transition: 1s;
+}
+
+.sub {
+    background-image: linear-gradient(rgba(10, 9, 9, 0.70), rgba(0, 0, 0, 0.70)), url(butter.jpg);
+    background-size: cover;
+    text-align: center;
+    height: 120vh;
+}
+
+.sub h1 {
+    padding-top: 10%;
+    font-family: Copperplate Gothic;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: blue
+}
+
+.sub h1:hover {
+    letter-spacing: 3px;
+    color: white;
+    transition: 1s;
+}
+
+.sub p {
+    padding-top: 55px;
+    font-family: Lucida Bright;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: rgb(196, 194, 194);
+}
+
+.sub form {
+    padding-top: 70px;
+}
+
+.sub input {
+    background-color: transparent;
+    width: 400px;
+    height: 50px;
+    padding-left: 7px;
+    border-radius: 15px;
+    border: 1px solid white;
+    font-family: monospace;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: blue;
+}
+
+.sub textarea {
+    background-color: transparent;
+    padding-left: 7px;
+    border-radius: 15px;
+    border: 1px solid white;
+    font-family: monospace;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: blue;
+}
+
+#butto {
+    padding-top: 50px;
+}
+
+#butto input {
+    width: 170px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-family: Copperplate Gothic;
+}
+
+#butto input:hover {
+    background-color: white;
+    border-color: white;
+    color: blue;
+    transition: 1s;
+}
+
+footer {
+    background-color: blue;
+    height: 10vh;
+}
+
+.foll {
+    padding: 1% 1%;
+    float: left;
+    background-color: transparent;
+}
+
+.foll a {
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-left: 5px;
+    font-family: Bright;
+    font-size: 17px;
+    color: white;
+}
+
+.foll a:hover {
+    color: yellow;
+    transition: 1s;
+}
+
+.down {
+    float: right;
+    padding: 1% 1%;
+}
+
+.down a {
+    font-family: Franklin Gothic;
+    letter-spacing: 1px;
+    color: gray;
+    text-decoration: none;
+}
+
+.down a:hover {
+    color: white;
+    transition: 1s;
+}
+
+.copy {
+    text-align: center;
+    padding-top: 2%;
+    font-family: Franklin Gothic;
+    letter-spacing: 1px;
+    color: yellow;
+}
